@@ -1,0 +1,62 @@
+.container .title{
+    margin: 3em 0 3.5em 0;
+    text-align: center;
+}
+
+
+.tasks_header{
+    color: #495057;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    text-align: center;
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-weight: bold;
+}
+.tasks_body{
+    color: #495057;
+    border-color: #dee2e6;
+    text-align: center;
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.tasks_button__add,
+.tasks_button__checkingAdmin{
+    padding: 0;
+}
+
+.modal-title .page__title{
+    text-align: center;
+    font-weight: bold;
+}
+.modal-footer{
+    display: none;
+}
+.admin_footer{
+    display: block;
+}
+
+.custom-checkbox{
+    margin: 0 0 0 1em;
+}
+
+.tasks_sorting{
+    position: relative;
+    width:  calc(100% + 30px);
+    left: -1em;
+}
+
+.form-check-input{
+     margin-left: 0.03em;
+ }
+
+.statusTask{
+    cursor: pointer;
+}
+
+.pagination{
+    margin-top: 1em;
+}
