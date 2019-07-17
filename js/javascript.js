@@ -250,22 +250,22 @@ if(document.getElementById('modal-add-admin')) {
             }
         }
         if (validateTagsResult) {
-            $.ajax({
-                method: 'post',
-                dataType: "json",
-                data: {
-                    "action": "editingTask",
-                    "s_idTask":idTask,
-                    "s_textTasks": s_textTasks,
-                    "s_statusTasks": ''+s_statusTask+'',
-                    "dataType": "json"
-                },
-                success: (function (result) {
-                    if (result === true) {
-                       $('#modal-editing-task-admin').modal('hide');
-                        location.reload();
-                    }
-                })
+                $.ajax({
+                    method: 'post',
+                    dataType: "json",
+                    data: {
+                        "action": "editingTask",
+                        "s_idTask":idTask,
+                        "s_textTasks": s_textTasks,
+                        "s_statusTasks": ''+s_statusTask+'',
+                        "dataType": "json"
+                    },
+                    success: (function (result) {
+                        if (result === true) {
+                           $('#modal-editing-task-admin').modal('hide');
+                            location.reload();
+                        }
+                    })
             });
         }
         return false;
